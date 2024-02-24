@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Student Housing Rentals</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css"> <!-- Link to the updated style.css file -->
 </head>
 <body>
   <header>
@@ -22,12 +22,28 @@
   <main>
     <section>
       <h2>Featured Listings</h2>
-      <!-- Add your featured listings here -->
+      <div class="featured-listings">
+        <!-- Add your featured listings here -->
+        <div class="listing">
+          <!-- Listing content goes here -->
+        </div>
+        <div class="listing">
+          <!-- Listing content goes here -->
+        </div>
+        <div class="listing">
+          <!-- Listing content goes here -->
+        </div>
+      </div>
     </section>
 
     <section>
       <h2>Search for Rentals</h2>
-      <!-- Add your search form here -->
+      <form>
+        <!-- Add your search form here -->
+        <label for="search">Search:</label>
+        <input type="text" id="search" name="search" placeholder="Enter keywords">
+        <input type="submit" value="Search">
+      </form>
     </section>
   </main>
 
